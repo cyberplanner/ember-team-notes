@@ -6,8 +6,8 @@ The repo is private so feel free to add credentials or passwords here.
 
 ### <a id="general">General notes</a>
 ##### git:
-	* 20 files per PR or less.
-	* use gitflow workflow: Master > Develop > Epic > Feature. [more on gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+* 20 files per PR or less.
+* use gitflow workflow: Master > Develop > Epic > Feature. [more on gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 * Deployment: through slack bot, to s3 bucket, returns a branch key.
 * Versioning: "semvers" (Semantic versioning i.e. 1.1.1).
 * Open Source packages are published under British Gas engineering org.
