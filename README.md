@@ -2,7 +2,7 @@
 Please feel free to add more categories.
 The repo is private so feel free to add credentials or passwords here.
 
-#### [General Notes](#general) | [Known Issues](#issues) | [Resources & Credentials](#resources)
+#### [General Notes](#general) | [Known Issues](#issues) | [Handlebars](#hbs) | [Resources & Credentials](#resources)
 
 ### <a id="general">General notes</a>
 ##### git:
@@ -45,6 +45,19 @@ The repo is private so feel free to add credentials or passwords here.
 * Qunit is the testing framework and Mirage is used for mocking.
 * All acceptance tests runs on mocks.
 
+### <a id="hbs">Handlebars and Helpers</a>
+*   
+##### Helpers:
+You don't need to close self-closing helpers like link-to:
+```js
+// Valid
+{{#link-to "index"}}
+  Link to Index
+{{/link-to}}
+// Also valid
+{{link-to 'Link to Index' 'index'}}
+```
+
 ### <a id="issues">Known Issues</a>
 * Ember specific packages:
 
@@ -68,7 +81,6 @@ The repo is private so feel free to add credentials or passwords here.
     this.route('new', {path: 'new'});
   });
   ```
-
 
 ### <a id="resources">Resources & Credentials</a>
 * [Frontend Masters](https://frontendmasters.com/):
